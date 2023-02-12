@@ -40,7 +40,7 @@ h1, h2 {
 
 #menu li {
     float: right;
-    list-style: none;
+    list-style-type: none;
     margin-right: 30px;
 }
 
@@ -86,7 +86,7 @@ h1, h2 {
 /* creates the level of zoom for hero image*/
 
 @keyframes hero-zoom {
-    fron{
+    from{
         transform: scale(1);
     }
     to{
@@ -131,14 +131,14 @@ h1, h2 {
 }
 
 #center-about {
-    width: 33px;
+    width: 33%;
     margin: 0 auto;
 }
 
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    margin: 5px;
+    margin: 5px 0;
 }
 
 .left-about-heading {
@@ -186,7 +186,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../images/ethos-center-image.jpg') no-repeat center;
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
